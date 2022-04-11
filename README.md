@@ -4,8 +4,8 @@ This is the 2nd Project from our SMU Fintech Bootcamp.
 
   <p align="center">
   <img 
-    width="300"
-    height="300"
+    width="700"
+    height="500"
     src="https://i.postimg.cc/BQHD8T2c/algorithmic-trading-bot.jpg)](https://postimg.cc/BXZtk1YX"
   >
 </p>
