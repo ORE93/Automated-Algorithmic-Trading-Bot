@@ -2,7 +2,13 @@
 
 This is the 2nd Project from our SMU Fintech Bootcamp.
 
-   [![algorithmic-trading-bot.jpg](https://i.postimg.cc/BQHD8T2c/algorithmic-trading-bot.jpg)](https://postimg.cc/BXZtk1YX)
+  <p align="center">
+  <img 
+    width="300"
+    height="300"
+    src="https://i.postimg.cc/BQHD8T2c/algorithmic-trading-bot.jpg)](https://postimg.cc/BXZtk1YX"
+  >
+</p>
 
 ## What We're Creating
 We are creating an automated algorithmic trading bot. We will use machine learning within the trading bot to buy and sell stocks based on different technical analysis indicators. We will also utilize Amazon Lex to build a chat bot for selecting ticker symbols and the number of shares to purchase within the trading bot. We will backtest our algorithmic trading bot against historical market data.
