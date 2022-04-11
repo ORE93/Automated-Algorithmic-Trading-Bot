@@ -11,10 +11,10 @@ We are creating an automated algorithmic trading bot. We will use machine learni
 Algorithmic trading is a process for executing orders utilizing automated and pre-programmed trading instructions to account for variables such as price, timing and volume. An algorithm is a set of directions for solving a problem. Computer algorithms send small portions of the full order to the market over time. ([Investopedia](https://www.investopedia.com/terms/a/algorithmictrading.asp#:~:text=Algorithmic%20trading%20is%20a%20process,to%20the%20market%20over%20time.))
 
 ## Contributors
-([Omar Eid](www.github.com/ORE93))
+[Omar Eid](www.github.com/ORE93)
 
-([Alex Morales](www.github.com/Amora987))
+[Alex Morales](www.github.com/Amora987)
 
-([Thomas Cloud](www.github.com/beowulf888))
+[Thomas Cloud](www.github.com/beowulf888)
 
-([James Tagapan](www.github.com/trekj))
+[James Tagapan](www.github.com/trekj)
