@@ -1,4 +1,4 @@
-# Automated Algorithmic Trading Bot
+# Automated Algorithmic Trading Bot with Machine Learning
 
 This is the 2nd Project from our SMU Fintech Bootcamp.
 
