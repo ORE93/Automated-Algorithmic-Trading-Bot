@@ -19,7 +19,7 @@ Algorithmic trading is a process for executing orders utilizing automated and pr
 ## Technoligies
 We will be working out of Jupyter Lab and importing the following libraries into our notebook.
 '''
-![image](https://user-images.githubusercontent.com/94989651/163476831-91110d9d-246f-4af8-a45b-a3a70b742ccf.png)
+
 '''
 
 ## Contributors
