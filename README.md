@@ -21,8 +21,8 @@ We will be working out of Jupyter Lab and importing the following libraries into
 
  <p align="center">
   <img 
-    width="700"
-    height="337"
+    width="500"
+    height="300"
     src="https://i.postimg.cc/7hzvWm3J/Screenshot-9.png)](https://postimg.cc/hQK3J83K"
   >
 
