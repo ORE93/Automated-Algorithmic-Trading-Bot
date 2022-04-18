@@ -11,7 +11,7 @@ This is the 2nd Project from our SMU Fintech Bootcamp.
 </p>
 
 ## What We're Creating
-We are creating an automated algorithmic trading bot. We will use machine learning within the trading bot to buy and sell stocks based on different technical analysis indicators. We will also utilize Amazon Lex to build a chat bot for selecting ticker symbols and the number of shares to purchase within the trading bot. We will backtest our algorithmic trading bot against historical market data.
+We are creating an automated algorithmic trading bot. We will use machine learning within the trading bot to buy and sell stocks based on different technical analysis indicators. We will also utilize the input function in python to ask our user which stock they would like to trade. We will backtest our algorithmic trading bot against historical market data.
 
 ## What is Algorithmic Trading?
 Algorithmic trading is a process for executing orders utilizing automated and pre-programmed trading instructions to account for variables such as price, timing and volume. An algorithm is a set of directions for solving a problem. Computer algorithms send small portions of the full order to the market over time. ([Investopedia](https://www.investopedia.com/terms/a/algorithmictrading.asp#:~:text=Algorithmic%20trading%20is%20a%20process,to%20the%20market%20over%20time.))
