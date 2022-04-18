@@ -26,6 +26,31 @@ We will be working out of Jupyter Lab and importing the following libraries into
     src="https://i.postimg.cc/7hzvWm3J/Screenshot-9.png)](https://postimg.cc/hQK3J83K"
   >
 
+## Gathering Our Data
+We begin by importing a csv file with a list of the S&P 500 companies, we will use this as a reference for our input question.
+
+  
+Next we will ask our user which stock they would like to trade from the S&P500, their answer must be in ticker format (eg. 'AAPL').
+  
+
+Their answer will then be used to tell our Alpaca API which stocks data to retrieve. Now we are ready to begin genrating our trading signals. 
+  
+## Generating Our Trading Signals
+Next we will need to tell our trading bot when to buy, hold and sell. We will do this by generating trading signals using short-window and long-window SMAs with RSI values.
+  
+We will plot our entry and exit points.
+  
+## Machine Learning Models
+We will now use our two machine learning models to make predictions about our data. These models are the Support Vector Classifier (SVC) model and the AdaBoost model. 
+
+The code to fit these models is pretty much the same but the results will vary as seen from our classification reports for each model. 
+  
+By plotting our results we can see our actual returns vs our strategy returns. 
+  
+## Conclusion 
+Our bot does its job properly. We did find that the SVC machine learning method is much more accurate than the AdaBoost method based on our precision results that you can see in the classification report. This is the method we would recommend using for building your own algorithmic trading bot. 
+  
+
 ## Contributors
 [Omar Eid](https://github.com/ORE93)
 
