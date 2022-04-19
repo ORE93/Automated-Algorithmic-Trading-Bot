@@ -38,8 +38,10 @@ Their answer will then be used to tell our Alpaca API which stocks data to retri
   
 ## Generating Our Trading Signals
 Next we will need to tell our trading bot when to buy, hold and sell. We will do this by generating trading signals using short-window and long-window SMAs with RSI values.
+  [![Screen-Shot-2022-04-19-at-2-42-13-PM.png](https://i.postimg.cc/d1NPgyVm/Screen-Shot-2022-04-19-at-2-42-13-PM.png)](https://postimg.cc/G8D5y9YH)
   
 We will plot our entry and exit points.
+  [![image-1.png](https://i.postimg.cc/k4pzTPTT/image-1.png)](https://postimg.cc/342twV5G)
   
 ## Machine Learning Models
 We will now use our two machine learning models to make predictions about our data. These models are the Support Vector Classifier (SVC) model and the AdaBoost model. 
