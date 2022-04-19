@@ -11,12 +11,12 @@ This is the 2nd Project from our SMU Fintech Bootcamp.
 </p>
 
 ## What We're Creating
-We are creating an automated algorithmic trading bot. We will use machine learning within the trading bot to buy and sell stocks based on different technical analysis indicators. We will also utilize Amazon Lex to build a chat bot for selecting ticker symbols and the number of shares to purchase within the trading bot. We will backtest our algorithmic trading bot against historical market data.
+We are creating an automated algorithmic trading bot. We will use machine learning within the trading bot to buy and sell stocks based on different technical analysis indicators. We will also utilize the input function in python to ask our user which stock they would like to trade. We will backtest our algorithmic trading bot against historical market data.
 
 ## What is Algorithmic Trading?
 Algorithmic trading is a process for executing orders utilizing automated and pre-programmed trading instructions to account for variables such as price, timing and volume. An algorithm is a set of directions for solving a problem. Computer algorithms send small portions of the full order to the market over time. ([Investopedia](https://www.investopedia.com/terms/a/algorithmictrading.asp#:~:text=Algorithmic%20trading%20is%20a%20process,to%20the%20market%20over%20time.))
 
-## Technoligies
+## Usage & Installation
 We will be working out of Jupyter Lab and importing the following libraries into our notebook:
 
  <p align="left">
@@ -25,6 +25,31 @@ We will be working out of Jupyter Lab and importing the following libraries into
     height="300"
     src="https://i.postimg.cc/7hzvWm3J/Screenshot-9.png)](https://postimg.cc/hQK3J83K"
   >
+
+## Gathering Our Data
+We begin by importing a csv file with a list of the S&P 500 companies, we will use this as a reference for our input question.
+
+  
+Next we will ask our user which stock they would like to trade from the S&P500, their answer must be in ticker format (eg. 'AAPL').
+  
+
+Their answer will then be used to tell our Alpaca API which stocks data to retrieve. Now we are ready to begin genrating our trading signals. 
+  
+## Generating Our Trading Signals
+Next we will need to tell our trading bot when to buy, hold and sell. We will do this by generating trading signals using short-window and long-window SMAs with RSI values.
+  
+We will plot our entry and exit points.
+  
+## Machine Learning Models
+We will now use our two machine learning models to make predictions about our data. These models are the Support Vector Classifier (SVC) model and the AdaBoost model. 
+
+The code to fit these models is pretty much the same but the results will vary as seen from our classification reports for each model. 
+  
+By plotting our results we can see our actual returns vs our strategy returns. 
+  
+## Conclusion 
+Our bot does its job properly. We did find that the SVC machine learning method is much more accurate than the AdaBoost method based on our precision results that you can see in the classification report. This is the method we would recommend using for building your own algorithmic trading bot. 
+  
 
 ## Contributors
 [Omar Eid](https://github.com/ORE93)
