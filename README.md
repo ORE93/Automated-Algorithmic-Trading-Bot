@@ -31,6 +31,7 @@ We begin by importing a csv file with a list of the S&P 500 companies, we will u
 
   
 Next we will ask our user which stock they would like to trade from the S&P500, their answer must be in ticker format (eg. 'AAPL').
+  [![image.png](https://i.postimg.cc/288LQpPs/image.png)](https://postimg.cc/QVwMDzNm) 
   
 
 Their answer will then be used to tell our Alpaca API which stocks data to retrieve. Now we are ready to begin genrating our trading signals. 
