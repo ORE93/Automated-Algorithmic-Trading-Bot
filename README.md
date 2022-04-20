@@ -50,6 +50,11 @@ The code to fit these models is pretty much the same but the results will vary a
   [![ada-boost-classifier.png](https://i.postimg.cc/SKmGnFTm/ada-boost-classifier.png)](https://postimg.cc/Snt9P5bP) [![svm-boost-classifier.png](https://i.postimg.cc/j2yXWxbd/svm-boost-classifier.png)](https://postimg.cc/N2fTSwFW)
   
 By plotting our results we can see our actual returns vs our strategy returns. 
+  ADA Plot:
+    [![ada-plot.png](https://i.postimg.cc/SQWZgrB2/ada-plot.png)](https://postimg.cc/5j2q0wNb)
+  
+  SVM Plot:
+    [![svm-plot.png](https://i.postimg.cc/PJ2YBPbc/svm-plot.png)](https://postimg.cc/xNNXmj4y)
   
 ## Conclusion 
 Our bot does its job properly. We did find that the AdaBoost machine learning method is just a bit more accurate than the SVM method based on our precision results that you can see in the classification report. This is the method we would recommend using for building your own algorithmic trading bot. 
