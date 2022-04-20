@@ -47,7 +47,7 @@ We will plot our entry and exit points.
 We will now use our two machine learning models to make predictions about our data. These models are the Support Vector Classifier (SVC) model and the AdaBoost model. 
 
 The code to fit these models is pretty much the same but the results will vary as seen from our classification reports for each model. 
-  [![ada-boost-classifier.png](https://i.postimg.cc/SKmGnFTm/ada-boost-classifier.png)](https://postimg.cc/Snt9P5bP) [![svm-boost-classifier.png](https://i.postimg.cc/Kzwqkp3Q/svm-boost-classifier.png)](https://postimg.cc/r0GC7JJt)
+  [![ada-boost-classifier.png](https://i.postimg.cc/SKmGnFTm/ada-boost-classifier.png)](https://postimg.cc/Snt9P5bP) [![svm-boost-classifier.png](https://i.postimg.cc/j2yXWxbd/svm-boost-classifier.png)](https://postimg.cc/N2fTSwFW)
   
 By plotting our results we can see our actual returns vs our strategy returns. 
   
