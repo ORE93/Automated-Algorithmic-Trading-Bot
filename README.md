@@ -63,7 +63,7 @@ By plotting our results we can see our actual returns vs our strategy returns.
 [![SVM-Chart.png](https://i.postimg.cc/Zn7LzW6c/SVM-Chart.png)](https://postimg.cc/RJttcVs6)
   
 ## Conclusion 
-Our bot does its job properly. We did find that the AdaBoost machine learning method is just a bit more accurate than the SVM method based on our precision results that you can see in the classification report. This is the method we would recommend using for building your own algorithmic trading bot. 
+Our bot does its job properly. We did find that the AdaBoost machine learning method is much more accurate than the SVM method based on our precision and accuracy results that you can see in the classification report. This is the method we would recommend using for building your own algorithmic trading bot. 
   
 
 ## Contributors
