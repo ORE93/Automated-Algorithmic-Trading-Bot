@@ -23,7 +23,7 @@ We will be working out of Jupyter Lab and importing the following libraries into
   <img 
     width="500"
     height="300"
-    src="https://i.postimg.cc/7hzvWm3J/Screenshot-9.png)](https://postimg.cc/hQK3J83K"
+    src="https://i.postimg.cc/bwRZF78y/2022-04-23-1.png)](https://postimg.cc/TKp2KHpF"
   >
 
 ## Gathering Our Data
@@ -48,19 +48,19 @@ We will now use our two machine learning models to make predictions about our da
 
 The code to fit these models is pretty much the same but the results will vary as seen from our classification reports for each model. 
   
-  [![ada-boost-classifier.png](https://i.postimg.cc/SKmGnFTm/ada-boost-classifier.png)](https://postimg.cc/Snt9P5bP) 
+  [![Ada-Boost.png](https://i.postimg.cc/Xq3J8LhG/Ada-Boost.png)](https://postimg.cc/dkHwQ2Jw) 
   
-  [![svm-boost-classifier.png](https://i.postimg.cc/j2yXWxbd/svm-boost-classifier.png)](https://postimg.cc/N2fTSwFW)
+  [![SVM.png](https://i.postimg.cc/kGnJ846W/SVM.png)](https://postimg.cc/sQNCC3J2)
   
 By plotting our results we can see our actual returns vs our strategy returns. 
   
   ADA Plot:
   
-[![ada-plot.png](https://i.postimg.cc/SQWZgrB2/ada-plot.png)](https://postimg.cc/5j2q0wNb)
+[![Ada-Boost-Chart.png](https://i.postimg.cc/bYW8p3LQ/Ada-Boost-Chart.png)](https://postimg.cc/nM4N1Kyz)
   
   SVM Plot:
   
-[![svm-plot.png](https://i.postimg.cc/PJ2YBPbc/svm-plot.png)](https://postimg.cc/xNNXmj4y)
+[![SVM-Chart.png](https://i.postimg.cc/Zn7LzW6c/SVM-Chart.png)](https://postimg.cc/RJttcVs6)
   
 ## Conclusion 
 Our bot does its job properly. We did find that the AdaBoost machine learning method is just a bit more accurate than the SVM method based on our precision results that you can see in the classification report. This is the method we would recommend using for building your own algorithmic trading bot. 
